@@ -26,7 +26,7 @@ const String _cfApiToken4 = '';
 const String _cfImageModel = '@cf/black-forest-labs/flux-1-schnell';
 
 // Qwen Image API
-const String _qwenApiToken = 'tgp_v1_k_HJCJ6vJ02BeYQf5t6TlqfPkwSGTdpWPYgc3w1YHyQ';
+const String _qwenApiToken = '';
 const String _qwenAccountId = 'PASTE_QWEN_ACCOUNT_ID';
 const String _qwenImageModel = '@cf/qwen/qwen1.5-14b-chat-awq';
 
