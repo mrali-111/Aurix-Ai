@@ -1,0 +1,102 @@
+name: aurix_ai
+description: "Aurix AI - Smart Reminder & Task Management App with Voice & Chat AI"
+publish_to: 'none'
+
+
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & DESIGN
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  path_provider: ^2.1.0
+
+  # IMAGE SAVING
+  image_gallery_saver_plus: ^4.0.1
+
+
+  # NETWORKING & HTTP
+  http: ^1.6.0
+  dio: ^5.4.0
+
+  # LOCAL STORAGE & CACHE
+  shared_preferences: ^2.5.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # DEVICE & APP INFO
+  package_info_plus: ^4.2.0
+  device_info_plus: ^10.1.0
+  android_intent_plus: ^4.0.3  # ← YEH NAYA ADD KARO
+
+
+  # LAUNCHER & EXTERNAL
+  url_launcher: ^6.2.5
+
+  # PERMISSIONS
+  permission_handler: ^11.4.0
+
+  # MEDIA
+  image_picker: ^1.2.2
+
+  # FILE HANDLING
+  open_file: ^3.3.2
+  share_plus: ^12.0.2
+
+
+  timezone: ^0.9.4
+
+  flutter_local_notifications: ^17.0.0
+
+  # FIREBASE
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.3.3
+  cloud_firestore: ^5.5.0
+  firebase_storage: ^12.3.0
+  firebase_database: ^11.3.1
+
+
+  # SPEECH & TEXT-TO-SPEECH
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.2.5
+
+  # DATA PARSING
+  xml: ^6.5.0
+  json_serializable: ^6.7.1
+
+  # STATE MANAGEMENT & UTILITIES
+  intl: ^0.19.0
+  uuid: ^4.0.0
+
+  # NOTIFICATIONS & ALERTS
+
+  cached_network_image: ^3.3.0
+
+  # ANIMATION & TRANSITIONS
+  animations: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  rename: ^3.0.1
+  build_runner: ^2.4.6
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  adaptive_icon_background: "#1A0040"   # dark purple — icon ke saath match
+  adaptive_icon_foreground: "assets/icon.png"  # aapka icon upar
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

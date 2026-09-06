@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "633178173644",
+    "project_id": "ghar-budget-222b9",
+    "storage_bucket": "ghar-budget-222b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633178173644:android:6d53f897208b18be819269",
+        "android_client_info": {
+          "package_name": "com.example.aurix_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633178173644-iftoe3qgeic38ojln68ehoal1jdv27nm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "REDACTED_FIREBASE_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633178173644-iftoe3qgeic38ojln68ehoal1jdv27nm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "633178173644-gdhgh9mu386k5mmmnb4s7pj8gnodmvov.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gharBudget"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
